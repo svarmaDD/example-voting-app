@@ -27,7 +27,7 @@ phases:
       - echo "Initial working directory (should be voting-app/result if buildspec path is correct):"
       - pwd  # PRINT WORKING DIRECTORY
       - echo "Changing directory to voting-app/result"
-      - cd example-voting-app/result
+      - cd result
       - echo "Current working directory (after cd, should be services/frontend):"
       - pwd
       - echo "Listing files in voting-app/result (verify Dockerfile is here):"

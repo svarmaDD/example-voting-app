@@ -40,7 +40,8 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image to $REPOSITORY_URI...
-      - docker push $REPOSITORY_URI:$IMAGE_TAG
+      - docker push 601427279990.dkr.ecr.ap-southeast-2.amazonaws.com/voting-app/vote:latest
+      # - docker push $REPOSITORY_URI:$IMAGE_TAG
       # Optional: Push the commit hash tag if you created one
       # - if [ -n "$CODEBUILD_RESOLVED_SOURCE_VERSION" ]; then docker push $REPOSITORY_URI:$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7); fi
       - echo "Image pushed successfully."

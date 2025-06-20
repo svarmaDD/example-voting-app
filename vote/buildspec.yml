@@ -7,7 +7,7 @@ env:
     AWS_ACCOUNT_ID: "601427279990" # Replace with your AWS Account ID
     AWS_REGION: "ap-southeast-2"         # Replace with your AWS Region (e.g., us-east-1)
     ECR_REPOSITORY_NAME: "voting-app/vote" # The ECR repository name for this service
-    IMAGE_TAG: "ddtrace"                   # You can use 'latest' or be more dynamic
+    IMAGE_TAG: "ddtrace2"                   # You can use 'latest' or be more dynamic
 
 phases:
   pre_build:
